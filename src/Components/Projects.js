@@ -154,7 +154,7 @@ const Skills = () => {
 						<Carousel
 						showThumbs={false}
 						infiniteLoop showIndicators={false} showStatus={false}
-						useKeyboardArrows showArrows={false}
+						useKeyboardArrows showArrows={true}
 						autoPlay
 						stopOnHover
 						swipeable
