@@ -63,14 +63,14 @@ const ContactForm = () => {
       return;
     }
 
-    // emailjs.sendForm('service_qdo9pvj', 'template_kc25phs', form.current, 'sAkjjYjTP68g47NiW')
-    //   .then((result) => {
-    //       console.log(result.text);
-    //       alert('Message sent successfully!');
-    //   }, (error) => {
-    //       console.log(error.text);
-    //       alert('Error sending message. Please try again later.');
-    // });
+    emailjs.sendForm('service_qdo9pvj', 'template_kc25phs', form.current, 'sAkjjYjTP68g47NiW')
+      .then((result) => {
+          console.log(result.text);
+          alert('Message sent successfully!');
+      }, (error) => {
+          console.log(error.text);
+          alert('Error sending message. Please try again later.');
+    });
 
     setIsButtonDisabled(true);
     setCountDown(30);
