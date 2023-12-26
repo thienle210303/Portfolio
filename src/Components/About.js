@@ -85,7 +85,7 @@ const About = () => {
 	const isLargeScreen = useMediaQuery('(min-width:1024px)');
 
 	const [text, setText] = useState("");
-	const toRotate = [ "Programmer", "Developer", "Full-Stack", "Web Developer", "Web Scraper", "Learner"];
+	const toRotate = [ "Programmer", "Developer", "Learner", "Web Scraper", "Pioneer"];
 	const period = 2000;
 
 	useEffect(() => {

@@ -31,7 +31,8 @@ const useStyles = (() => ({
   
   Button: {
     margin: '10px',
-    backgroundColor: 'black'
+    backgroundColor: 'black',
+    color: 'white'
   }
 }));
 
@@ -62,14 +63,14 @@ const ContactForm = () => {
       return;
     }
 
-    emailjs.sendForm('service_qdo9pvj', 'template_kc25phs', form.current, 'sAkjjYjTP68g47NiW')
-      .then((result) => {
-          console.log(result.text);
-          alert('Message sent successfully!');
-      }, (error) => {
-          console.log(error.text);
-          alert('Error sending message. Please try again later.');
-    });
+    // emailjs.sendForm('service_qdo9pvj', 'template_kc25phs', form.current, 'sAkjjYjTP68g47NiW')
+    //   .then((result) => {
+    //       console.log(result.text);
+    //       alert('Message sent successfully!');
+    //   }, (error) => {
+    //       console.log(error.text);
+    //       alert('Error sending message. Please try again later.');
+    // });
 
     setIsButtonDisabled(true);
     setCountDown(30);
@@ -120,33 +121,33 @@ const ContactForm = () => {
           required
         />
 
-      <TextField
-        sx={{mb: 1,
-          '& .MuiOutlinedInput-notchedOutline': { borderColor: 'black' }}}
-        label="Subject"
-        name="subject"
-        fullWidth
-        autoComplete="none"
-        className={style.textField}
-        value={subject}
-        onChange={(e) => setSubject(e.target.value)}
-        // required
-      />
+        <TextField
+          sx={{mb: 1,
+            '& .MuiOutlinedInput-notchedOutline': { borderColor: 'black' }}}
+          label="Subject"
+          name="subject"
+          fullWidth
+          autoComplete="none"
+          className={style.textField}
+          value={subject}
+          onChange={(e) => setSubject(e.target.value)}
+          // required
+        />
 
-      <TextField
-        sx={{mb: 1,
-          '& .MuiOutlinedInput-notchedOutline': { borderColor: 'black' } }}
-        label="Message"
-        name="message"
-        fullWidth
-        multiline
-        rows={5}
-        autoComplete="none"
-        className={style.textField}
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-        required
-      />
+        <TextField
+          sx={{mb: 1,
+            '& .MuiOutlinedInput-notchedOutline': { borderColor: 'black' } }}
+          label="Message"
+          name="message"
+          fullWidth
+          multiline
+          rows={5}
+          autoComplete="none"
+          className={style.textField}
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          required
+        />
 
         <Button 
             className={style.subButton} 
