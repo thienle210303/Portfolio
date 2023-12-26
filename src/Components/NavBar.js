@@ -166,7 +166,7 @@ const NavBar = () => {
   const isLargeScreen = useMediaQuery('(min-width:1024px)');
 
   // Handle Resume
-  const resumeSTR = "Resume 9/25/2023"
+  const resumeSTR = "Resume 12/26/2023"
   const [openDialog, setOpenDialog] = useState(false);
   const handleResumeOption = () => {
     setOpenDialog(true);
