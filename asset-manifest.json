@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.7b895e39.css",
-    "main.js": "/Portfolio/static/js/main.48d345f3.js",
+    "main.js": "/Portfolio/static/js/main.043fb9c9.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Toys.gif": "/Portfolio/static/media/Toys.bd2a89393a8cce24e59a.gif",
     "static/media/FoodRoute.gif": "/Portfolio/static/media/FoodRoute.f818e76e4a601c26bc6e.gif",
     "static/media/self_background.jpg": "/Portfolio/static/media/self_background.ec230b0314037287b5f0.jpg",
     "static/media/coomingsoon.jpg": "/Portfolio/static/media/coomingsoon.13e914d8061b935d6063.jpg",
     "static/media/self_background.png": "/Portfolio/static/media/self_background.db9981a6fa796097d885.png",
-    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.b8b9ae0cacbd199b029d.pdf",
+    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.1bbf49d63a2131716307.pdf",
     "static/media/self.jpg": "/Portfolio/static/media/self.d989035ef7c2b7e1dc73.jpg",
     "static/media/c-.ico": "/Portfolio/static/media/c-.7e8d4c207539673d077c.ico",
     "static/media/mongodb.ico": "/Portfolio/static/media/mongodb.1ff982d2162b428ab1ee.ico",
     "index.html": "/Portfolio/index.html",
     "main.7b895e39.css.map": "/Portfolio/static/css/main.7b895e39.css.map",
-    "main.48d345f3.js.map": "/Portfolio/static/js/main.48d345f3.js.map",
+    "main.043fb9c9.js.map": "/Portfolio/static/js/main.043fb9c9.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b895e39.css",
-    "static/js/main.48d345f3.js"
+    "static/js/main.043fb9c9.js"
   ]
 }
