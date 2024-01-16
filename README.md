@@ -1,7 +1,7 @@
 # Personal Portfolio
 Hi, my name is Thien Le :)
 
-Good to see you here
+Nice to meet you
 
-### Techinal Apply
+## Techinal Apply
 Javascript/React, Github, Material UI, EmailJS API
