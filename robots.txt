@@ -1,3 +1,22 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+[(-- ID: a4c10c4a-2b5f-4251-86fe-a9373a9b464c
+-- Name: null
+-- Subject: ECHE
+-- Code: 567
+-- Description: Reliability, availability, and fault-tree analyses, risk indices, hazard evaluation, vapor cloud modeling, toxicology, material safety classification and regulations, individual/corporate ethical responsibilities.   FS: 10/05/2022.
+-- Credit hours: 0
+-- Semester hours: [SPRING, SUMMER, FALL]
+-- Course prerequisites:[], [{"min_grade":"D","course_options":["d6fd7340-d77f-4aa4-9569-812f4c4d8b40"],"choices":1}]), (-- ID: 3435bc63-d317-49e0-bf6e-4210d4595545
+-- Name: null
+-- Subject: PCAM
+-- Code: 106
+-- Description: Operations on real numbers, linear equations and inequalities, quadratic equations, factoring, absolute value equations, exponential and radical expressions, graphs, and functions. Additional topics may include math study skills, logarithms, exponential functions, probability, statistics, systems of equations, polynomial division, and mathematical modeling.    CL: 2020.
+-- Credit hours: 0
+-- Semester hours: [SPRING, SUMMER, FALL]
+-- Course prerequisites:[], [{"min_grade":"C","course_options":["3435bc63-d317-49e0-bf6e-4210d4595545"],"choices":1}]), (-- ID: d6fd7340-d77f-4aa4-9569-812f4c4d8b40
+-- Name: null
+-- Subject: ECHE
+-- Code: 466
+-- Description: Continuation of ECHE 465; computer-aided design of chemical processes; written and oral presentation of a comprehensive design project.   FS: 12/01/2021.
+-- Credit hours: 0
+-- Semester hours: [SPRING, SUMMER, FALL]
+-- Course prerequisites:[], [{"min_grade":"D","course_options":["6ef52e7c-05a4-47f5-9fd6-c17012a4f9c7"],"choices":1},{"min_grade":"D","course_options":["c10ec0e2-38b8-4c62-b848-38dd5df8a8d5"],"choices":1},{"min_grade":"D","course_options":["7ebe7972-1f2d-4f86-908a-81b91f5f7e76"],"choices":1},{"min_grade":"D","course_options":["cc93b80b-8475-4853-8dac-754c2668da2c"],"choices":1},{"min_grade":"D","course_options":["a4c10c4a-2b5f-4251-86fe-a9373a9b464c"],"choices":1}])]
