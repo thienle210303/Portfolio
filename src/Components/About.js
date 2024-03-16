@@ -1,5 +1,5 @@
 // Library
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Typography, Container, Box, Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { useMediaQuery } from '@material-ui/core';
@@ -85,7 +85,7 @@ const About = () => {
 	const isLargeScreen = useMediaQuery('(min-width:1024px)');
 
 	const [text, setText] = useState("");
-	const toRotate = [ "Programmer", "Developer", "Learner", "Web Scraper", "Pioneer"];
+	const toRotate = useMemo(() => ["Programmer", "Developer", "Pioneer", "Polymath"], []);
 	const period = 2000;
 
 	useEffect(() => {
@@ -118,7 +118,7 @@ const About = () => {
     return () => {
       clearInterval(ticker);
     };
-  }, []);
+  }, [toRotate]);
 
 
 
@@ -134,7 +134,7 @@ const About = () => {
 							</Typography>
 							<Typography variant="h4" className={classes.header}>
 									Hi, I'm Thien Le, <br/> a {" "}
-									<span className="txt-rotate" data-period="1000" data-rotate='${toRotate}'>
+									<span className="txt-rotate" data-period="1000" data-rotate={`${toRotate}`}>
 										<span>{text}</span>
 									</span>
 							</Typography>
@@ -171,7 +171,7 @@ const About = () => {
 						<Typography variant="h4" className={classes.header}>
 								I'm Thien <br/>
 								<span> Le, a <br/> </span>
-								<span className="txt-rotate" data-period="1000" data-rotate='${toRotate}'>
+								<span className="txt-rotate" data-period="1000" data-rotate={`${toRotate}`}>
 									<span>{text}</span>
 								</span>
 						</Typography>

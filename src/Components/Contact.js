@@ -111,7 +111,7 @@ const Contact = () => {
     window.open(`mailto:${email}`);
   };
 	return (
-    <Box className={classes.root} id="contact">
+    <Box className={classes.root} id="contactInformation">
 			{isLargeScreen ? (
 				<Box className={classes.contactContainer}>
 					<Typography variant="h4" className={classes.title}>

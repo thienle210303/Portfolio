@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 // import Grid from '@mui/material/Grid';
 
-const useStyles = (() => ({
+const useStyles = {
   root: {
     flexGrow: 1,
 		margin: 0,
@@ -27,14 +27,19 @@ const useStyles = (() => ({
   textField: {
     marginBottom: '20px',
     padding: '20px',
+    zIndex: 1
   },
   
   Button: {
     margin: '10px',
     backgroundColor: 'black',
     color: 'white'
+  },
+
+  heading: {
+    textAlign: 'center'
   }
-}));
+};
 
 const ContactForm = () => {
   const [user_name, setFullName] = useState('');
@@ -45,7 +50,7 @@ const ContactForm = () => {
   const [countDown, setCountDown] = useState(null);
 
   const form = useRef();
-  const style = useStyles();
+  const style = useStyles;
 
   const isValidEmail = (email) => {
     // Regular expression for validating an Email
@@ -90,8 +95,8 @@ const ContactForm = () => {
   };
 
   return (
-    <Box id='form' style={style.root}>
-      <Typography variant='h3'>
+    <Box id='contact' style={style.root}>
+      <Typography variant='h3' style={style.heading}>
         Let's connect!
       </Typography>
       <form style={style.form} onSubmit={sendEmail} ref={form}>
